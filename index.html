@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEV RECIPE</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <h1>DEV RECIPE</h1>
+            <form action="">
+                <button type="button" id="btn" aria-label="Toggle dark mode"><i class="fa-solid fa-moon"></i></button>
+                <!-- <input type="text" placeholder="Search recipes..." class="input" aria-label="Search recipes"> -->
+                <!-- <button type="submit" class="search_btn">Search</button> -->
+            </form>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="alphabates_container">
+                <div class="alphabates">
+                    <!-- Alphabet navigation will be dynamically generated here -->
+                </div>
+            </div>
+            <p class="trending">Top trending</p>
+            <div class="recipe_container">
+                
+                <!-- Recipes will be dynamically displayed here -->
+                 <div class="recipe">
+                    
+                    <img src="cake.jpg" alt="">
+                    <h2>cake</h2>
+                    <p>category : <span>Dessert</span></p>
+                    <p>area : <span>American</span></p>
+                    <button class="showbtn"> show</button>
+                 </div>
+                 <div class="recipe">
+                    
+                    <img src="dal fry.jpg" alt="">
+                    <h2>dal fry</h2>
+                    <p>category : <span>Dessert</span></p>
+                    <p>area : <span>Indian</span></p>
+                    <button class="showbtn"> show</button>
+                 </div>
+                 <div class="recipe">
+                    
+                    <img src="15-minute chicken & halloumi burgers.jpg" alt="">
+                    <h2>15-minute chicken & halloumi burgers</h2>
+                    <p>category : <span>Chicken</span></p>
+                    <p>area : <span>American</span></p>
+                    <button class="showbtn"> show</button>
+                 </div>
+
+                 <div class="recipe">
+                    
+                    <img src="Beef Wellington.jpg" alt="">
+                    <h2>Beef Wellington</h2>
+                    <p>category : <span>Beef</span></p>
+                    <p>area : <span> British</span></p>
+                    <button class="showbtn"> show</button>
+                 </div>
+
+                 <div class="recipe">
+                    
+                    <img src="Beetroot Soup (Borscht).jpg" alt="">
+                    <h2>Beetroot Soup (Borscht)</h2>
+                    <p>category : <span>Vegaterian</span></p>
+                    <p>area : <span>Ukrainian</span></p>
+                    <button class="showbtn"> show</button>
+                 </div>
+
+                 <div class="recipe">
+                    
+                    <img src="big mac.jpg" alt="">
+                    <h2>big mac</h2>
+                    <p>category : <span>Beef</span></p>
+                    <p>area : <span>American</span></p>
+                    <button class="showbtn"> show</button>
+                 </div>
+
+                 
+                 
+            </div>
+
+            <div class="category">
+                <p>Category</p>
+                <!-- Category list will be dynamically generated here -->
+            </div>
+
+            <div class="area">
+                <p>Area</p>
+                <!-- Area list will be dynamically generated here -->
+            </div>
+
+            <div class="recipe_details" aria-hidden="true">
+                <button type="button" class="closebtn" aria-label="Close recipe details">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+                <div class="recipe_details_content">
+                    <!-- Recipe details will be dynamically displayed here -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js" defer></script>
+    <script src="alphabets.js" defer></script>
+    <script src="categorylist.js" defer></script>
+    <script src="Arealist.js" defer></script>
+    <script src="categoryLiclick.js" defer></script>
+    <script src="show.js"></script>
+</body>
+
+</html>
