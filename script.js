@@ -90,12 +90,12 @@ closeBtn.addEventListener('click', () => {
 });
 
 // Search Button Click
-// searchBtn.addEventListener('click', (e) => {
-//     e.preventDefault();
-//     const searchValue = recipeSearch.value.trim();
-//     if (!searchValue) {
-//         recipeContainer.innerHTML = `<h2>Please type a meal name in the search box.</h2>`;
-//         return;
-//     }
-//     fetchRecipes(searchValue);
-// });
+searchBtn.addEventListener('click', (e) => {
+    e.preventDefault();
+    const searchValue = recipeSearch.value.trim();
+    if (!searchValue) {
+        recipeContainer.innerHTML = `<h2>Please type a meal name in the search box.</h2>`;
+        return;
+    }
+    fetchRecipes(searchValue);
+});
