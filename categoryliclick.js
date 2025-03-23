@@ -1,7 +1,4 @@
 const Recipecontainer = document.querySelector('.recipe_container');
-// const showbtn = document.querySelector('.showbtn');
-// const recipedetailscontent = document.querySelector('.recipe_details_content');
-
 // Function to fetch and display recipes by category
 const fetchCategoryByName = async (query) => {
   try {
